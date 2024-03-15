@@ -1,6 +1,6 @@
 # migrate-s3-bucket
 
-Efficiently and securely migrate S3 buckets from one source to another with this high-performance Go script. Designed for seamless migration processes, whether you're dealing with billions of items or ensuring minimal downtime for your services, our tool streamlines your operations.
+Efficiently and securely migrate S3 buckets from one source to another with this high-performance Go script. Designed for seamless migration processes, whether you're dealing with billions of items or ensuring minimal downtime for your services, this tool requires setting your source bucket to read-only mode. Additionally, it necessitates a process capable of attempting to fetch data from the new bucket and, if needed, falling back to the old bucket — akin to a CDN's operation. This setup ensures data integrity and availability throughout the migration process.
 
 ## Features
 
